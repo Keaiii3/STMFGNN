@@ -58,25 +58,25 @@ The calculation uses CPU, which should be prepared for enough computation resour
 - on PEMS03 dataset  
   
   ```shell   
-  python train_DSTAGNN.py --config configurations/PEMS03_dstagnn.conf   
+  python train_STMFGNN.py --config configurations/PEMS03_dstagnn.conf   
   ```
 
 - on PEMS04 dataset  
   
   ```shell   
-  python train_DSTAGNN.py --config configurations/PEMS04_dstagnn.conf   
+  python train_STMFGNN.py --config configurations/PEMS04_dstagnn.conf   
   ```
 
 - on PEMS07 dataset  
   
   ```shell   
-  python train_DSTAGNN.py --config configurations/PEMS07_dstagnn.conf   
+  python train_STMFGNN.py --config configurations/PEMS07_dstagnn.conf   
   ```
 
 - on PEMS08 dataset
 
   ```shell
-  python train_DSTAGNN.py --config configurations/PEMS08_dstagnn.conf
+  python train_STMFGNN.py --config configurations/PEMS08_dstagnn.conf
   ```
 
 - visualize training progress:
